@@ -7,7 +7,7 @@ import "./navbar.css";
 
 function NavBar() {
     return(
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" sticky="top">
          <Container >
             <Navbar.Brand> <img src={logo} alt={logo}/> </Navbar.Brand>
             <Navbar.Toggle/>

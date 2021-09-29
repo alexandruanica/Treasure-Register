@@ -1,1 +1,10 @@
+.main-image {
+    opacity:0.1;
+}
 
+.image-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}

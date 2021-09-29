@@ -12,13 +12,15 @@ import "./App.css";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter className="main-container">
       <NavBar/>
-      <Route path="/home" component={Home}/>
-      <Route path="/about" component={About}/>
-      <Route path="/regulament" component={Regulament} />
-      <Route path="/login" component={Login} />
-      <Route path="/register" component={Register}/>
+      <div class="dashboard row container-fluid">
+        <Route path="/home" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/regulament" component={Regulament} />
+        <Route path="/login" component={Login} />
+        <Route path="/register" component={Register}/>
+      </div>
     </BrowserRouter>
   );
 }
