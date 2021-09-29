@@ -1,0 +1,10 @@
+body {
+  background-image: url("./Assets/UP.svg"), url("./Assets/DOWN.svg");
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, no-repeat;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
